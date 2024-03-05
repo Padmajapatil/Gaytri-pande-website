@@ -59,7 +59,7 @@ nav ul li {
     overflow: hidden !important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* background-color: rgba(0, 0, 0, 0.6);  */
     /* Black color with 60% opacity */
     /* z-index: 1;  */
@@ -276,6 +276,7 @@ margin-top: -20px;
     /* width: 320px; */
 }
 .card-talks p{
+height: 50px;
 font: 20px;
 color: black;
 font-weight: 600;
@@ -450,7 +451,7 @@ font-weight: 600;
     overflow: hidden !important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;   
+    /* background-attachment: fixed;    */
 }
 
 /* awards page */
@@ -473,10 +474,10 @@ font-weight: 600;
     font-weight: 500;
 }
 .awards-section{
-    background-color:rgb(254, 238, 245);  
+    background-color:#FAF1E2;  
 }
 .card-awards{
-    height: 500px;
+    height: 520px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.068);   
 }
 .awards-section h1{
