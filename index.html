@@ -15,6 +15,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -31,7 +34,7 @@
           
                 <ul class="navbar-nav nav-navbar-right me-auto mb-2 mb-lg-0">
                     <li class="nav-item ">
-                      <a class="nav-link active nav-home-bold" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active nav-home-bold" aria-current="page" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item ">
                       <a class="nav-link active" aria-current="page" href="./awards.html">Awards</a>
@@ -55,8 +58,6 @@
                       <a class="nav-link active" aria-current="page" href="./ContactUs.html">Contact</a>
                     </li>
                   </ul>
-               
-                
               </div>
             </div>
           </nav>
@@ -78,8 +79,8 @@
                       <div class=" wow fadeInUp" data-wow-delay="1s" data-wow-duration="2s">
                         <button type="button" class="btn btn-dark btn-dark-1 border-none">DISCOVER MORE</button>
                       <div class=" brand-logo mt-4">
-                        <a href=""><img src="./images/Amazon Logo.jpg" alt=""></a>
-                        <a href=""><img src="./images/fipcart-logo.png" alt="" srcset=""></a>
+                        <a href="https://www.amazon.co.uk/Indian-Guide-Technology-Career-Professional/dp/B0BSVFBHMR"><img src="./images/Amazon Logo.jpg" alt=""></a>
+                        <a href="https://www.flipkart.com/indian-guide-uk-technology-career/p/itm932aad0321541?pid=9798888839713"><img src="./images/fipcart-logo.png" alt="" srcset=""></a>
                       </div>
                       </div>
                    </div>
@@ -93,21 +94,21 @@
         <main>
         <!-- courosal section start -->
         <section >
-          <div class="slider my-4">
-            <div class="slide-track">
-              <div class="slide">
+          <div class="container my-4">
+            <div class=" row d-flex justify-content-between">
+              <div class="slide col-lg-2 col-md-2 col-sm-12 my-4">
                 <img src="./images/brand1.png" height="100" width="250" alt="" />
               </div>
-              <div class="slide">
+              <div class="slide col-lg-2 col-md-2 col-sm-12 my-4">
                 <img src="./images/brand2-1.png" height="100" width="250" alt="" />
               </div>
-              <div class="slide">
+              <div class="slide col-lg-2 col-md-2 col-sm-12 my-4">
                 <img src="./images/brand2-2.png" height="100" width="250" alt="" />
               </div>
-              <div class="slide">
+              <div class="slide col-lg-2 col-md-2 col-sm-12 my-4">
                 <img src="./images/brand3.png" height="100" width="250" alt="" />
               </div>
-              <div class="slide">
+              <div class="slide col-lg-2 col-md-2 col-sm-12 my-4">
                 <img src="./images/brand4.png" height="100" width="250" alt="" />
               </div>
             </div>
@@ -118,17 +119,57 @@
         <!-- section intro start  -->
         <div class="container my-5 p-5">
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 intro-img wow bounceInLeft" data-wow-delay="1s" data-wow-duration="2s">
-              <img src="./images/intro-1.png" class="" alt="" srcset="">
+            <div class="col-lg-5 col-md-6 col-sm-12 intro-img wow bounceInLeft my-3" data-wow-delay="1s" data-wow-duration="2s">
+              <img src="./images/intro-1.png" class="w-100" alt="" srcset="">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 intro-para wow bounceInRight" data-wow-delay="1s" data-wow-duration="2s">
-              <h1 class="mb-4">Hi! I’m Gayatri</h1>
+            <div class="col-lg-6 col-md-7 col-sm-12 intro-para wow bounceInRight px-5" data-wow-delay="1s" data-wow-duration="2s">
+              <h1 class="my-4">Hi! I’m Gayatri</h1>
               <p>As a seasoned tech business enabler, author, and speaker, I bring a wealth of expertise and a deep understanding of the challenges entrepreneurs face in the global business landscape. With over 15 years of experience spanning diverse markets and industries such as Information Technology, Data Science and Analytics, Semiconductor/Electronics, Design Engineering, Technology Consulting, and Professional Services, I am currently serving as a strategist at Themis Technologies, a prominent London-based consulting firm.</p>
               <p>Whether you are looking for a UK Global Talent Visa or UK Tech career advice, I have lots of tips and hints to help you move to the next level of your career. I work with technologists who are highly ambitious, growth-minded, and working towards a better tomorrow.</p>
               <div>
-                <button type="button" class="btn btn-dark btn-dark-1 border-none my-4">READ MORE</button>
+                <!-- <button type="button" class="btn btn-dark btn-dark-1 border-none my-4 SeeMore2 d-block" data-toggle="collapse" href="#collapseTwo"">READ MORE</button> -->
+               
               </div>
             </div>
+            <div id="collapseTwo" class="accordion-body collapse expanded my-5">
+              <p>At the forefront of innovation, I am driving the development of 'UKiPortal,' a ground-breaking AI-based Immigration Tech product aimed at revolutionizing the visa application process. I am also spearheading the development of an Immigration Tech product, “UKiPortal” - a highly innovative AI-based immigration technology product designed to transform how people apply for visas.</p>
+              <h1 class="my-3 ">
+                Impacts Created UK & India:
+              </h1>
+              <ul>
+                <li>
+                  As an Indian residing in theUK, I have created positive impact for fellow Indians by helping them set up their businesses and offering support. Offered mentorship and guidance to 100+Indian entrepreneurs in the UK. Share my knowledge and experiences regardingthe local business landscape, regulations, and cultural nuances. Provided advice on business planning, market research, and financial management to helpthem navigate the challenges of starting a business in a new country.
+                </li>
+                <br>
+                <li>
+                  Facilitated networking opportunities and created a supportive community for Indian entrepreneurs. Organized events, workshops, or networking sessions where they connected with like-minded individuals.
+                </li>
+                <br>
+                <li>
+                  Acting as a cultural bridge between the Indian and UK business communities. Helped Indian entrepreneurs understand the local business practices, etiquette, and customer preferences.
+                </li>
+                <br>
+                <li>
+                  Acting as a cultural bridge between the Indian and UK business communities. Helped Indian entrepreneurs understand the local business practices, etiquette, and customer preferences.
+                </li>
+                <br>
+                <li>
+                  Acting as a cultural bridge between the Indian and UK business communities. Helped Indian entrepreneurs understand the local business practices, etiquette, and customer preferences.
+                </li>
+                <br>
+                <li>
+                  Acting as a cultural bridge between the Indian and UK business communities. Helped Indian entrepreneurs understand the local business practices, etiquette, and customer preferences.
+                </li>
+                <br>
+                <li>
+                  As a passionate supporter of women in entrepreneurship, I have effectively played a role in advancing initiatives aimed at empowering Indian women in the realms of business and technological innovation in the UK.
+                </li>
+                <br>
+              </ul>
+            </div>
+           <div class="d-flex justify-content-center wow bounceInRight" data-wow-delay="1s" data-wow-duration="2s">
+            <button type="button" class="btn btn-dark btn-dark-1 border-none  SeeMore2 " data-toggle="collapse" href="#collapseTwo"">READ MORE</button>
+           </div>
           </div>
         </div>
         <!-- section intro end  -->
@@ -211,11 +252,11 @@
                      <button type="button" class="btn btn-dark m-2">Read Article</button>
                     </div>
                     <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                        <i class='fa fa-user'></i>
+                       <img src="./images/user-alt-1_svgrepo.com (1).png" class="vector-img" alt="">
                         <span class="">DQINDIA Online</span>
                     </div>
                     <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                        <i class='fa fa-briefcase '></i>
+                      <img src="./images/Vector.png" class="vector-img" alt="">
                         <span>Apr 06, 2021</span>
                     </div>
                 </div>
@@ -242,11 +283,11 @@
                      <button type="button" class="btn btn-dark m-2">Read Article</button>
                     </div>
                     <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                        <i class='fa fa-user'></i>
+                       <img src="./images/user-alt-1_svgrepo.com (1).png" class="vector-img" alt="">
                         <span class="">DQINDIA Online</span>
                     </div>
                     <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                        <i class='fa fa-briefcase '></i>
+                      <img src="./images/Vector.png" class="vector-img" alt="">
                         <span>Jun 09, 2021</span>
                     </div>
                 </div>
@@ -255,7 +296,7 @@
             </div>
 
             <div class="row latest-articles-card p-4 my-5">
-              <div class="col-lg-3">
+              <div class="col-lg-3 col-md-4 col-sm-12">
                <div>
                 <img src="./images/media-3.png" class="w-100" alt="">
               </div>
@@ -269,17 +310,17 @@
                  <p>
                   Two bosses accuse an employee of theft without conducting an investigation
                  </p>
-                 <div class="row  align-items-center news-content-details">
-                  <div class="col-lg-2 col-md-3 col-sm-12">
+                 <div class="row align-items-center news-content-details ">
+                  <div class=" col-lg-4 col-md-3 col-sm-12">
                    <button type="button" class="btn btn-dark m-2">Read Article</button>
                   </div>
-                  <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                      <i class='fa fa-user'></i>
-                      <span class="">Elizabeth Howlett</span>
+                  <div class=" col-lg-4 col-md-3 col-sm-12 ">
+                     <img src="./images/user-alt-1_svgrepo.com (1).png" class="vector-img" alt="">
+                      <span class="">DQINDIA Online</span>
                   </div>
-                  <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                      <i class='fa fa-briefcase '></i>
-                      <span>Feb 25, 2021</span>
+                  <div class=" mx-3 col-lg-3 col-md-3 col-sm-12">
+                      <img src="./images/Vector.png" class="vector-img" alt="">
+                      <span>Apr 09, 2021</span>
                   </div>
               </div>
                 </div>
@@ -306,11 +347,11 @@
                <button type="button" class="btn btn-dark m-2">Read Article</button>
               </div>
               <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                  <i class='fa fa-user'></i>
+                 <img src="./images/user-alt-1_svgrepo.com (1).png" class="vector-img" alt="">
                   <span class="">DQINDIA Online</span>
               </div>
               <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                  <i class='fa fa-briefcase '></i>
+                <img src="./images/Vector.png" class="vector-img" alt="">
                   <span>Apr 09, 2021</span>
               </div>
           </div>
@@ -339,11 +380,11 @@
                <button type="button" class="btn btn-dark m-2">Read Article</button>
               </div>
               <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                  <i class='fa fa-user'></i>
+                 <img src="./images/user-alt-1_svgrepo.com (1).png" class="vector-img" alt="">
                   <span class="">DQINDIA Online</span>
               </div>
               <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                  <i class='fa fa-briefcase '></i>
+                <img src="./images/Vector.png" class="vector-img" alt="">
                   <span>Apr 09, 2021</span>
               </div>
           </div>
@@ -371,11 +412,11 @@
              <button type="button" class="btn btn-dark m-2">Read Article</button>
             </div>
             <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                <i class='fa fa-user'></i>
+               <img src="./images/user-alt-1_svgrepo.com (1).png" class="vector-img" alt="">
                 <span class="">DQINDIA Online</span>
             </div>
             <div class="mx-3 col-lg-2 col-md-3 col-sm-12">
-                <i class='fa fa-briefcase '></i>
+              <img src="./images/Vector.png" class="vector-img" alt="">
                 <span>Apr 09, 2021</span>
             </div>
         </div>
@@ -403,11 +444,11 @@
            <button type="button" class="btn btn-dark m-2">Read Article</button>
           </div>
           <div class="mx-3">
-              <i class='fa fa-user'></i>
+             <img src="./images/user-alt-1_svgrepo.com (1).png" class="vector-img" alt="">
               <span class="">DQINDIA Online</span>
           </div>
           <div class="mx-3">
-              <i class='fa fa-briefcase '></i>
+            <img src="./images/Vector.png" class="vector-img" alt="">
               <span>Apr 09, 2021</span>
           </div>
       </div>
@@ -435,11 +476,11 @@
          <button type="button" class="btn btn-dark m-2">Read Article</button>
         </div>
         <div class="mx-3">
-            <i class='fa fa-user'></i>
+           <img src="./images/user-alt-1_svgrepo.com (1).png" class="vector-img" alt="">
             <span class="">DQINDIA Online</span>
         </div>
         <div class="mx-3">
-            <i class='fa fa-briefcase '></i>
+          <img src="./images/Vector.png" class="vector-img" alt="">
             <span>Apr 09, 2021</span>
         </div>
     </div>
@@ -540,7 +581,7 @@
     
               </div>
              <div class="d-flex justify-content-center mt-2">
-              <button class="btn btn-dark  border-none ">
+              <button class="btn btn-dark btn-dark-1 border-none ">
                 Subscribe
               </button>
              </div>
@@ -574,9 +615,9 @@
         </ul>
 
         <div class="d-flex justify-content-center social-media-icon-footer border-bottom py-4 mb-5">
-          <a href=""><i class="fa fa-instagram text-white mx-4"></i></a>
-          <a href=""><i class="fa fa-linkedin-square text-white mx-4"></i></a>
-          <a href=""><i class="fa fa-twitter text-white mx-4"></i></a>
+          <a href="https://www.instagram.com/gayatri_themisuk/"><i class="fa fa-instagram text-white mx-4"></i></a>
+          <a href="http://www.linkedin.com/in/gayatri-panda"><i class="fa fa-linkedin-square text-white mx-4"></i></a>
+          <a href="https://twitter.com/Gayatri_PN"><i class="fa fa-twitter text-white mx-4"></i></a>
         </div>
         <p class="text-center text-white">copyright © 2024 All Rights Reserved by Gayatri Panda</p>
       </footer>
@@ -586,5 +627,19 @@
       <script>
         new WOW().init();
         </script>
+
+        
+<script>
+  $('.SeeMore2').click(function(){
+		var $this = $(this);
+		$this.toggleClass('SeeMore2');
+		if($this.hasClass('SeeMore2')){
+			$this.text('See More');			
+		} else {
+			$this.text('See Less');
+		}
+	});
+</script>
+  </script>
 </body>
 </html>
