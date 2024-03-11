@@ -21,8 +21,9 @@ nav ul li {
 
   #topheader .navbar-nav li > a:hover,
 #topheader .navbar-nav li > a:focus {
-		background-color: #333;
-		color: #fff;
+		/* background-color: #333;
+		color: #fff; */
+        font-weight: 750;
 	}
 
 /* #topheader .navbar-nav li.active > a {
@@ -61,7 +62,9 @@ nav ul li {
 /* .latest-articles-card p{
     height: 50px;
 } */
-
+.courosal-section h1{
+    font-weight: 750;
+}
 
 .hero {
     
@@ -277,7 +280,9 @@ margin-top: -20px;
     background-color:
 #FAF1E2; 
 }
-
+/* .social-media-icon-footer a i{
+    color: white !important;
+} */
 /* talks  */
 .hero-talks{
     width: 100%;
@@ -325,6 +330,7 @@ font-weight: 600;
     height: 130px;
     overflow: hidden;
 
+
 }
 .img-media img{
     max-width: 100%;
@@ -343,7 +349,7 @@ font-weight: 600;
 }
 .card-media p{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 650;
 }
 
 
@@ -385,6 +391,9 @@ font-weight: 600;
 }
 .news-content-right{
    padding-right: 50px;
+}
+.news-content-right h3{
+    font-weight: 650;
 }
 .news-content-details{
     color: gray;
@@ -576,6 +585,9 @@ font-weight: 600;
 
 /* mobile view media query  */
 @media (max-width:600px) {
+    .SeeMore2 {
+        margin-top: 0px;
+    }
     .hero-content h1{
         font-size: 20px;
     }
