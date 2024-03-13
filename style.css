@@ -435,6 +435,7 @@ font-weight: 600;
     font-weight: 650;
 }
 .news-content-details{
+    display: flex;
     color: gray;
 }
 .nav-pills .nav-item {
@@ -622,13 +623,44 @@ font-weight: 600;
     .award-grid1 div{
         padding-left: 0;
     }
+    .SeeMore2 {
+        margin-top: 0;
+    }
+    .latest-articles-card h3 {
+        font-size: 15px;
+    }
+    .latest-artical-section p{
+        font-size: 12px;
+    }
+    .latest-artical-img{
+        height: 200px;
+    }
+    .hreo-award-into h1 {
+        margin-top: 0px;
+    }
+    .card-awards h3{
+        font-size: 20px;
+    }
+    .card-awards p{
+        font-size: 15px;
+        height: 150px;
+    }
+    .card-awards {
+        height: 450px;
+    }
+    .info-certification h5 {
+        font-size: 18px;
+    }
+    .card-talks p {
+        height: 100px;
+    }
 }
 
 
 /* mobile view media query  */
 @media (max-width:600px) {
     .SeeMore2 {
-        margin-top: 0px;
+        margin-top: 20px;
     }
     .hero-content h1{
         font-size: 20px;
@@ -650,7 +682,8 @@ font-weight: 600;
         margin-left: 0;
     }
     .intro-img img{
-        height: 280px;
+        /* height: 280px; */
+        padding: 30px;
         width: 300px;
         }
     .intro-para h1 {
@@ -717,16 +750,24 @@ font-size: 15px;
     }
     .hero-contact{
         /* width: 100%; */
-        height: 1200px !important;
+        height: 1300px !important;
     }
 .expanded p{
     padding-right: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 15px;
 }
 .expanded li{
     padding-right: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 15px;
 }
 .expanded h1 {
-    font-size: 20px;
+    font-size: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 .intro-para p {
     padding: 0px !important;
@@ -735,5 +776,32 @@ font-size: 15px;
 .intro-container{
     padding: 0px !important;
     margin: 0px !important; 
+}
+.hero-news h1 {
+    font-size: 25px;
+}
+.hero-news h3 {
+    font-size: 15px;
+}
+.news-into {
+    font-size: 15px;
+}
+.news-content-details{
+    display: block !important;
+}
+.news-content-details div{
+    margin-top: 10px;
+}
+.info-certification h5 {
+    font-size: 18px;
+}
+.card-media {
+    height: 560px;
+}
+.card-talks p {
+    height: 100px;
+}
+.card-talks {
+    width: 320px;
 }
 }
