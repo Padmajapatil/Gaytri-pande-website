@@ -65,15 +65,18 @@ nav ul li {
 .courosal-section h1{
     font-weight: 750;
 }
+.nav-navbar-right {
+    margin-left: 180px;
+}
 
 .hero {
     
     /* position: absolute; */
     /* top: 0;
     left: 0; */
-    width: 100%;
+    /* width: 100%; */
     /* height: 690px !important; */
-    height: 600px !important;
+    height: 750px !important;
     background-image: url("./images/background-hero.png");
     overflow: hidden !important;
     background-size: cover;
@@ -85,8 +88,8 @@ nav ul li {
     /* Ensure the overlay is behind the content */
 }
 .hero-contact{
-    width: 100%;
-    height: 690px !important;
+    /* width: 100%; */
+    /* height: 690px !important; */
     background-color:
 #FAF1E2; 
     overflow: hidden !important;
@@ -149,31 +152,51 @@ nav ul li {
     line-height: 24.2px;
 }
 
-
 @keyframes scroll {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
-}
-
-.slider {
-	height: 100px;
-	margin: auto;
-	overflow:hidden;
-	position: relative;
-	width: auto;
-	
-	
-	
-}
-.slide-track {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
+  /*   background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125); */
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    /* width: 960px; */
+  }
+  .slider::before, .slider::after {
+  /*   background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
     animation: scroll 40s linear infinite;
     display: flex;
-    width: calc(150px * 24);
-}
-.slide {
+    width: calc(250px * 14);
+  }
+  .slider .slide {
     height: 100px;
-    width: 1050px;
-}
+    width: 250px;
+    padding-left: 20px;
+  }
+  
 .intro-para h1{
 font-size: 40px;
 font-weight: 750;
@@ -254,6 +277,7 @@ margin-top: -20px;
  font-weight: 700;
 }
 .latest-event-section h1{
+    font-family: 'Georgia', serif;
     font-size: 40px;
     font-weight: 700;
 }
@@ -283,10 +307,18 @@ margin-top: -20px;
 /* .social-media-icon-footer a i{
     color: white !important;
 } */
+.carousel img {
+    width: 100%;
+    border-radius: 50%;
+}
+.newsletter-section button{
+padding-left: 40px !important;
+padding-right: 40px !important;
+}
 /* talks  */
 .hero-talks{
     width: 100%;
-    height: 600px !important;
+    height: 670px !important;
     background-image: url("./images/background-talks.png");
     overflow: hidden !important;
     background-size: cover;
@@ -297,7 +329,7 @@ margin-top: -20px;
     /* width: 320px; */
 }
 .card-talks p{
-height: 50px;
+height: 70px;
 font: 20px;
 color: black;
 font-weight: 600;
@@ -393,6 +425,7 @@ font-weight: 600;
    padding-right: 50px;
 }
 .news-content-right h3{
+    font-size: 24px;
     font-weight: 650;
 }
 .news-content-details{
