@@ -609,6 +609,7 @@
         <!-- newsletter section start  -->
         <section class="newsletter-section p-5">
           <div class="container p-5 wow flash" data-wow-delay="1s" data-wow-duration="2s">
+            <form class="form" role="form" method="post" action="lead.php">
             <div class="row justify-content-center">
               <span class="text-center my-3">
                 Newsletter
@@ -620,10 +621,10 @@
                 Get updated on UK employment market trends to optimise your employment search.
               </p>
               <div class='col-lg-8 col-md-8 col-sm-8  mb-4'>
-                <input type="text" class="form-control form-design p-3" placeholder=" Your Full Name" name="fnamep" Id="fnamep" />
+                <input type="text" class="form-control form-design p-3" placeholder=" Your Full Name" id="name" name="name" />
               </div>
               <div class='col-lg-8 col-md-8 col-sm-8 mb-4'>
-                <input type="text" class="form-control form-design p-3" placeholder="Your Email Address" name="emailp" Id="emailp" />
+                <input type="text" class="form-control form-design p-3" placeholder="Your Email Address" id="email" name="email />
     
               </div>
              <div class="d-flex justify-content-center mt-2">
@@ -631,6 +632,7 @@
              </div>
               
             </div>
+            </form>
           </div>
         </section>
         <!-- newsletter section end  -->
