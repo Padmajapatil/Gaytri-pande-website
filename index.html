@@ -19,6 +19,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
 </head>
 <body>
 
@@ -44,10 +45,10 @@
             <a class="nav-link" id="nav-talks" href="./Talks.html">Talks</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-media" href="./media.html">Media Coverages</a>
+            <a class="nav-link" id="nav-media" href="./media.html">Publications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-global" href="./global.html">Global Events</a>
+            <a class="nav-link" id="nav-global" href="./global.html">Speaking</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="nav-product" href="#">Product</a>
@@ -64,8 +65,8 @@
   </nav>
  </div>
    
-          <header class="hero">
-            <div class="container">
+          <header >
+            <!-- <div class="container">
                 <div class="hero-content row">
                    <div class="col-lg-7 col-md-7 col-sm-12 p-4 mt-5">
                      <div class=" wow fadeInDown" data-wow-delay="1s" data-wow-duration="2s">
@@ -90,8 +91,45 @@
 
                    </div>
                 </div>
-            </div>
+            </div> -->
            
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/background-hero.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://cdn.pixabay.com/photo/2016/08/12/23/47/mountain-ranges-1590013_1280.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                   
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://cdn.pixabay.com/photo/2022/01/27/14/12/mountains-6972216_960_720.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
         </header>
         <main>
         <!-- courosal section start -->
@@ -117,7 +155,7 @@
           </div>
         </section> -->
         <!-- courosal section end -->
-
+<!-- 
         <section>
           <div class="slider">
             <div class="slide-track">
@@ -159,7 +197,34 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
+
+                  <!-- courosal section start -->
+                  <section class="courosal-section" >
+                    <!-- <h1 class="text-center my-5 ">
+                      Recognitions
+                    </h1> -->
+                    <div class="container my-4">
+                      <div class=" row d-flex justify-content-between">
+                        <div class="slide col-lg-2 col-md-2 col-sm-12 text-center my-4">
+                          <img src="./images/brand1.png" class="w-100" height="74" alt="" />
+                        </div>
+                        <div class="slide col-lg-2 col-md-2 col-sm-12  text-center  my-4">
+                          <img src="./images/brand2-1.png" height="74"  alt="" />
+                        </div>
+                        <div class="slide col-lg-2 col-md-2 col-sm-12  text-center  my-4">
+                          <img src="./images/brand2-2.png" class="w-100" height="74"  alt="" />
+                        </div>
+                        <div class="slide col-lg-2 col-md-2 col-sm-12  text-center  my-4">
+                          <img src="./images/brand3.png"  class="w-100"  height="74" alt="" />
+                        </div>
+                        <div class="slide col-lg-2 col-md-2 col-sm-12  text-center  my-4">
+                          <img src="./images/brand4.png" class="w-100" height="74" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                <!-- courosal section end -->
 
         <!-- section intro start  -->
         <div class="container intro-container my-5 py-5">
@@ -213,7 +278,10 @@
               </ul>
             </div>
            <div class="d-flex justify-content-center wow bounceInRight" data-wow-delay="1s" data-wow-duration="2s">
-            <button type="button" class="btn btn-dark btn-dark-1 border-none  SeeMore2 " data-toggle="collapse" href="#collapseTwo"">READ MORE</button>
+            <a href="./demo.html">
+              <!-- <button type="button" class="btn btn-dark btn-dark-1 border-none  SeeMore2 " data-toggle="collapse" href="#collapseTwo"">READ MORE</button> -->
+              <button type="button" class="btn btn-dark btn-dark-1 border-none  SeeMore2 ">READ MORE</button>
+            </a>
            </div>
           </div>
         </div>
@@ -609,7 +677,8 @@
         <!-- newsletter section start  -->
         <section class="newsletter-section p-5">
           <div class="container p-5 wow flash" data-wow-delay="1s" data-wow-duration="2s">
-            <form class="form" role="form" method="post" action="lead.php">
+            <form action="lead.php" method="POST">
+              <input type="hidden" name="access_key" value="ad34e751-7311-436b-ae36-ba0304569c4c">
             <div class="row justify-content-center">
               <span class="text-center my-3">
                 Newsletter
@@ -621,10 +690,10 @@
                 Get updated on UK employment market trends to optimise your employment search.
               </p>
               <div class='col-lg-8 col-md-8 col-sm-8  mb-4'>
-                <input type="text" class="form-control form-design p-3" placeholder=" Your Full Name" name="fnamep" Id="fnamep" />
+                <input type="text" class="form-control form-design p-3" placeholder=" Your Full Name" name="name" id="name" />
               </div>
               <div class='col-lg-8 col-md-8 col-sm-8 mb-4'>
-                <input type="text" class="form-control form-design p-3" placeholder="Your Email Address" name="emailp" Id="emailp" />
+                <input type="text" class="form-control form-design p-3" placeholder="Your Email Address" name="email" id="emailp" />
     
               </div>
              <div class="d-flex justify-content-center mt-2">

@@ -314,8 +314,9 @@ margin-top: -48px;
     color: white !important;
 } */
 .carousel img {
+    height: 800px;
     width: 100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .newsletter-section button{
 padding-left: 40px !important;
